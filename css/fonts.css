@@ -17,5 +17,6 @@ body,
 button,
 input,
 textarea {
+  font-size: 1.6rem;
   font-family: "vazir";
 }

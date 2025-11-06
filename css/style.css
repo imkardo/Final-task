@@ -1,0 +1,37 @@
+/* Reset */
+*,
+*::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
+}
+
+/* Root Variable */
+:root {
+  --color-primary: #cc312d;
+  --color-border: #ebebeb;
+  --color-background: #f7f7f7;
+  --color-white: #fff;
+}
+.container {
+  max-width: 124rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.buyer__information {
+  display: grid;
+  grid-template-columns: 1fr;
+  /* align-items: center; */
+  /* justify-items: center; */
+  border: 1px solid var(--color-border);
+  border-radius: 2rem;
+  padding: 3rem 2rem;
+}
+@media screen and (min-width: 768px) {
+  .buyer__information {
+    grid-template-columns: 2fr 1fr;
+  }
+}
