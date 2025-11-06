@@ -90,7 +90,7 @@
     grid-template-columns: 2fr 1fr;
   }
   .heading {
-    font-size: 2.3rem;
+    font-size: 2.2rem;
   }
   .user__info .recipient__info--form {
     flex-direction: row;
