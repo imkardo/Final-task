@@ -72,7 +72,19 @@
   gap: 1rem;
   width: 100%;
 }
-
+.user__info .delivery__address--title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.user__info .delivery__address--title span {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
 @media screen and (min-width: 768px) {
   .buyer__info {
     grid-template-columns: 2fr 1fr;
