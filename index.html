@@ -15,10 +15,60 @@
   </head>
   <body dir="rtl">
     <div class="container">
-    <section class="buyer__information">
-      <div class="user__information">اطلاعات کاربری</div>
-      <div class="purchase__information">اطلاعات خرید</div>
-    </section>
+      <section class="buyer__info">
+        <div class="user__info">
+          <form action="#">
+            <h2 class="heading">اطلاعات کاربری <span>شما</span></h2>
+            <div class="recipient__info">
+              <div class="recipient__info--title">
+                <h3>اطلاعات تحویل گیرنده</h3>
+              </div>
+              <div class="recipient__info--form">
+                <span>
+                  <label for="name">نام و نام خانوادگی</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="کاردو حیدری"
+                /></span>
+                <span
+                  ><label for="phoneNumber">شماره تماس گیرنده</label>
+                  <input
+                    type="text"
+                    id="phoneNumber"
+                    name="phoneNumber"
+                    placeholder="09121111111"
+                /></span>
+              </div>
+            </div>
+            <div class="delivery__address">
+              <div class="delivery__address--title">
+                <h3>آدرس تحویل</h3>
+                <span>
+                  <svg
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M0.75 5.75H5.75M5.75 5.75H10.75M5.75 5.75V10.75M5.75 5.75V0.75"
+                      stroke="#CC312D"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                  انتخاب آدرس
+                </span>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="purchase__info">
+          <h2 class="heading">اطلاعات <span>خرید</span></h2>
+        </div>
+      </section>
     </div>
   </body>
 </html>
