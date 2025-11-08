@@ -53,7 +53,7 @@
 }
 .user__info form input,
 select {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   padding: 1.2rem 1.7rem;
   border-radius: 4rem;
   border: none;
@@ -88,15 +88,16 @@ select {
   gap: 0.5rem;
 }
 .sf-select {
-  appearance: none; 
-  -webkit-appearance: none; 
-  -moz-appearance: none; 
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   background-image: url('data:image/svg+xml;utf8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 9L12 15L18 9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/></svg>');
   background-repeat: no-repeat;
   background-position: left 10px center;
   background-size: 20px;
   cursor: pointer;
 }
+
 @media screen and (min-width: 768px) {
   .buyer__info {
     grid-template-columns: 2fr 1fr;
