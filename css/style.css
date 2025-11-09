@@ -57,7 +57,7 @@ select,
 textarea,
 .delivery__type > span {
   font-size: 1.3rem;
-  padding: 1.2rem 1.7rem;
+  padding: 1.35rem 1.7rem;
   border-radius: 4rem;
   border: none;
   background: var(--color-background);
@@ -134,20 +134,16 @@ textarea,
 .howToSend .delivery__type .check {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 0.4rem;
-}
-.howToSend .delivery__type > span {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
+  gap: 0.5rem;
   font-size: 1.2rem;
 }
-.howToSend .delivery__type label {
-  font-size: 1.1rem;
+.howToSend .delivery__type > span {
+  width: 100%;
 }
-.howToSend .delivery__type > span:hover{
+.howToSend .delivery__type label {
+  font-size: 1.2rem;
+}
+.howToSend .delivery__type > span:hover {
   border: 1px solid var(--color-primary);
 }
 @media screen and (min-width: 768px) {
