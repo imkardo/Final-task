@@ -16,6 +16,8 @@
   --color-background: #f7f7f7;
   --color-white: #fff;
 }
+
+/* Dependencies */
 .container {
   max-width: 124rem;
   margin: 0 auto;
@@ -27,6 +29,7 @@
   gap: 2rem;
   padding: 1rem;
 }
+/* Form */
 .user__info form {
   display: flex;
   flex-direction: column;
@@ -150,6 +153,7 @@ textarea,
   border: 1px solid var(--color-primary);
 }
 
+/* Side bar */
 .purchase__info {
   background: var(--color-background);
   padding: 2rem;
@@ -294,6 +298,7 @@ textarea,
   max-width: 40rem;
   margin: 0 auto;
 }
+/* Responsive */
 @media screen and (min-width: 400px) {
   .items__list li .item__img {
     display: flex;
