@@ -261,8 +261,25 @@ textarea,
   font-weight: 700;
   padding-top: 2rem;
 }
-
-
+.payment {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 1.3rem 1rem;
+  border-radius: 1.2rem;
+  gap: 1rem;
+}
+.payment .ziball {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.2rem;
+  background-color: #ebb81140;
+}
 @media screen and (min-width: 400px) {
   .items__list li .item__img {
     display: flex;
