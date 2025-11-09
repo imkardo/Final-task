@@ -136,7 +136,7 @@ textarea,
   gap: 0.5rem;
   font-size: 1.2rem;
 }
-.howToSend .delivery__type .check label{
+.howToSend .delivery__type .check label {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -173,4 +173,73 @@ textarea,
   background: var(--color-background);
   padding: 2rem;
   border-radius: 1.6rem;
+}
+.items__list {
+  margin-top: 2rem;
+}
+.items__list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.3rem;
+}
+.items__list li .item__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  border-radius: 1.2rem;
+  padding: 1rem;
+}
+.items__list li .item__img img {
+  width: 100%;
+  aspect-ratio: 1 /1;
+}
+
+.product__description {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.item__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.3rem;
+  width: 75%;
+}
+.product__amount {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.product__amount span {
+  color: #606060;
+  font-weight: 300;
+}
+.product___cost {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product__price span {
+  font-size: 1rem;
+}
+.product__name--eng {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 250%;
+}
+.product__number {
+  display: flex;
+  gap: 0.5rem;
+}
+.product__number span {
+  border: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  width: 3.2rem;
+  height: 3.2rem;
 }
