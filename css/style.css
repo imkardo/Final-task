@@ -239,6 +239,7 @@ textarea,
   background: #fff;
   padding: 1.4rem;
   border-radius: 1.2rem;
+  margin: 2rem 0;
 }
 .purchase__factor .items__cost {
   display: flex;
