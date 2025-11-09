@@ -154,6 +154,9 @@ textarea,
   padding: 2rem;
   border-radius: 1.6rem;
 }
+.items__list li:last-child {
+  border-bottom: none;
+}
 .items__list li {
   display: flex;
   justify-content: center;
@@ -227,6 +230,38 @@ textarea,
   width: 3.2rem;
   height: 3.2rem;
 }
+.purchase__factor {
+  background: #fff;
+  padding: 1.4rem;
+  border-radius: 1.2rem;
+}
+.purchase__factor .items__cost {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--color-border);
+}
+.purchase__factor .items__cost > span,
+.purchase__factor .items__amount > span {
+  display: flex;
+  justify-content: space-between;
+}
+.purchase__factor .cost__title {
+  font-size: 1.3rem;
+}
+.purchase__factor .cost__number {
+  font-size: 1.35rem;
+  opacity: 0.4;
+}
+.items__amount .final__amount {
+  font-size: 1.7rem;
+}
+.items__amount {
+  font-weight: 700;
+  padding-top: 2rem;
+}
+
 
 @media screen and (min-width: 400px) {
   .items__list li .item__img {
