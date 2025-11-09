@@ -228,7 +228,7 @@ textarea,
   height: 3.2rem;
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 400px) {
   .items__list li .item__img {
     display: flex;
   }
