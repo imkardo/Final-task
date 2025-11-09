@@ -52,7 +52,8 @@
 .user__info form input,
 select,
 textarea,
-.delivery__type > span {
+.delivery__type > span,
+.payment__button input {
   font-size: 1.3rem;
   padding: 1.35rem 1.7rem;
   border-radius: 4rem;
@@ -262,8 +263,8 @@ textarea,
   padding-top: 2rem;
 }
 .payment {
-  margin-top: 1rem;
-  font-size: 1.3rem;
+  margin: 1rem 0;
+  font-size: 1.2rem;
   display: flex;
   align-items: center;
   background: #fff;
@@ -279,6 +280,19 @@ textarea,
   justify-content: center;
   border-radius: 1.2rem;
   background-color: #ebb81140;
+  aspect-ratio: 1 /1;
+}
+.payment span:last-child span {
+  font-weight: 600;
+}
+.payment__button input {
+  background: var(--color-primary);
+  color: #fff;
+  width: 100%;
+}
+.purchase__content {
+  max-width: 40rem;
+  margin: 0 auto;
 }
 @media screen and (min-width: 400px) {
   .items__list li .item__img {
@@ -301,7 +315,6 @@ textarea,
   .heading h2 {
     font-size: 2.2rem;
   }
-
   .howToSend span .items__cart {
     font-size: 1.2rem;
   }
